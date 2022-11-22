@@ -1,0 +1,139 @@
+@charset "UTF-8";
+*{
+    
+    font-family:Helvetica bold,sans-serif;
+    
+}
+
+body nav{
+    background-color: white; 
+    padding:11px; 
+    border-radius: 10px;
+    flex-direction:row;
+    
+    
+}
+
+#user{
+	color: black;
+	float: right;
+}
+
+html, body {
+    height:100%;
+}
+
+
+#img{
+    float:left;
+    width:30px;
+    margin-top: -5px;  
+}
+
+#img2{
+/*     background-color:rgba(5,124,196,255); */
+    padding:8px;
+    border-radius: 13px;
+    width:40px;
+}
+#loginlog{
+    align-items:center;
+    padding:30px;
+}
+
+#cad{
+    color:black;
+    
+    padding: 3px;
+    background-color:white;
+    text-decoration: none;
+    border-radius: 4px;
+    border:none;
+}
+
+#log{
+    color:black;
+    padding: 4px;
+    background-color:white;
+    text-decoration: none;
+    border-radius: 4px;
+    border:none;
+}
+
+#login{
+    
+    align-items: center;
+    
+}
+
+#inCad{
+    color:black;
+    padding: 3px;
+    background-color:white;
+    text-decoration: none;
+    border-radius: 4px;
+    border:none;
+}
+
+#jaPossuo{
+    color:black;
+    padding: 2px;
+    background-color:white;
+    text-decoration: none;
+    border-radius: 4px;
+    border:none;
+}
+
+body nav a{
+    color:white;
+    font-size:18px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.footer{
+    
+    align-items:center;
+    color:rgba(5,124,196,255);
+    display:flex;
+    flex-direction: column;
+    padding:0px;
+    position:absolute;
+    bottom:0;
+    width:99%;
+    padding:0px; 
+      
+}
+.footer #listas{
+    display:flex;
+    justify-content:space-between; 
+    width: 1000px;
+}
+
+.footer #listas .boldList{
+    font-weight:bold;
+    
+}
+
+.footer #listas div ul{
+    list-style:none;
+    
+}
+
+.footer #rd2{   
+    border-top:2px solid rgba(5,124,196,255);
+    margin-top: 10px;
+    margin-bottom:0px;   
+}
+
+.footer #rd2 ul{
+    display:flex;
+    list-style:none;
+    margin-top: 10px;
+}
+
+.footer #rd2 ul li{
+    padding: 0 20px 0 20px;
+    align-items:center;
+    
+}
